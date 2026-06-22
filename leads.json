@@ -1,0 +1,44 @@
+[
+  {
+    "name": "amin",
+    "phone": "0125065516",
+    "email": "amin87.azman@gmail.com",
+    "websiteUrl": "bromover.com",
+    "hasWebsite": true,
+    "timestamp": "2026-06-18T17:11:43.617Z",
+    "pageSpeed": "gagal",
+    "loadTime": "biasa",
+    "croOptimized": "cro",
+    "mobileResponsive": "pecah",
+    "isInitial": true,
+    "isComplete": true
+  },
+  {
+    "name": "amin",
+    "phone": "151516",
+    "email": "1ndfqw@f.com",
+    "websiteUrl": "sacd.com",
+    "hasWebsite": true,
+    "firstImpression": [
+      "Sukar dijumpai di Google (Tiada struktur SEO yang betul)",
+      "Nampak sama, tiada kelebihan berbanding website pesaing",
+      "Design nampak 'murah' / lapuk / macam template percuma"
+    ],
+    "persuasion": [
+      "Prospek selalu komen/bantah harga terlalu mahal",
+      "Kurang bukti sosial (Testimoni/Rating) yang meyakinkan",
+      "Ayat panjang meleret tapi tak 'hook' emosi orang untuk beli"
+    ],
+    "actionFriction": [
+      "Langkah nak checkout/hubungi kami terlalu rumit (Banyak step)",
+      "Terpaksa layan prospek secara manual (Tiada Chatbot balas cepat)"
+    ],
+    "dataTracking": [
+      "Banyak bakar duit Ads tapi sekadar 'window shopping'",
+      "Tak pasti sama ada Pixel/Tag dipasang dengan betul"
+    ],
+    "isInitial": false,
+    "isComplete": true,
+    "timestamp": "2026-06-20T03:01:37.181Z"
+  }
+]
