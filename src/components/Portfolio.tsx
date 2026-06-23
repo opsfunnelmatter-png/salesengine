@@ -585,9 +585,12 @@ export default function Portfolio() {
                         style={{ height: "100%", width: "100%" }}
                       />
                     ) : (
-                      <img
+                      <Image
                         src={activeTemplate.image}
                         alt={`Long screenshot of ${activeTemplate.name} template`}
+                        width={300}
+                        height={activeTemplate.isSingleScreen ? 600 : 1800}
+                        priority={true}
                         className={activeTemplate.isSingleScreen 
                           ? "w-full h-full object-cover object-top select-none pointer-events-none" 
                           : "w-full h-auto object-top select-none pointer-events-none"
