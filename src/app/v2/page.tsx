@@ -5,14 +5,14 @@ import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
 import PerformanceShowcase from "@/components/PerformanceShowcase";
 import WidgetShowcase from "@/components/WidgetShowcase";
-import Backstory from "@/components/Backstory";
-import HowItWorks from "@/components/HowItWorks";
+import BackstoryV2 from "@/components/BackstoryV2";
+import HowItWorksV2 from "@/components/HowItWorksV2";
 import UrgencyStrip from "@/components/UrgencyStrip";
 import PricingV2 from "@/components/PricingV2";
 import GuaranteeV2 from "@/components/GuaranteeV2";
 import FAQ from "@/components/FAQ";
 import StickyCTA from "@/components/StickyCTA";
-import BottomCTA from "@/components/BottomCTA";
+import BottomCTAV2 from "@/components/BottomCTAV2";
 import FixedBackground from "@/components/FixedBackground";
 
 export default function HomeV2() {
@@ -44,10 +44,10 @@ export default function HomeV2() {
         */}
         
         {/* Founders Transparent Backstory */}
-        <Backstory />
+        <BackstoryV2 />
 
         {/* 3-Step Timeline Process (NEW Fasa 6 Element) */}
-        <HowItWorks />
+        <HowItWorksV2 />
 
         {/* Urgency Progress Strip - TEMPORARILY HIDDEN
         <UrgencyStrip />
@@ -63,7 +63,7 @@ export default function HomeV2() {
         <FAQ />
 
         {/* Bottom Call to Action Scroll-Up */}
-        <BottomCTA />
+        <BottomCTAV2 />
       </main>
 
       {/* Footer */}
