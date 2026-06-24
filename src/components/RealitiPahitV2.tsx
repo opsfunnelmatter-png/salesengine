@@ -4,7 +4,7 @@ import React, { useState, useRef } from "react";
 import { AlertTriangle, Zap, RotateCw } from "lucide-react";
 import { motion, useSpring, useMotionValue } from "framer-motion";
 
-export default function RealitiPahit() {
+export default function RealitiPahitV2() {
   const [isFlipped, setIsFlipped] = useState(false);
   const lastFlippedTimeRef = useRef(0);
 
@@ -150,22 +150,26 @@ export default function RealitiPahit() {
         <motion.div variants={containerVariants} className="text-center max-w-3xl mx-auto space-y-5">
           <motion.div variants={badgeVariants} className="flex justify-center">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold tracking-widest uppercase bg-amber-400/10 text-amber-300 px-3.5 py-1.5 rounded-full border border-amber-300/20 shadow-xs">
-              💸 AKAUN BANK ANDA SEDANG BERDARAH
+              💸 KENAPA 'SHOWROOM' DIGITAL ANDA SUNYI WALAUPUN ANDA RUN ADS
             </span>
           </motion.div>
           
           <motion.h2 variants={textVariants} className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight leading-tight text-white">
-            Website Slow Bukan Masalah IT.{" "}
+            Website Yang Tidak Pandai Menjual Bukan Masalah Rekaan.{" "}
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_2px_15px_rgba(234,179,8,0.25)] inline-block">
               Ia Adalah Mesin Pembaziran Wang Yang Paling Mahal Anda Miliki.
             </span>
           </motion.h2>
           
           <motion.p variants={textVariants} className="text-slate-200 text-base leading-relaxed font-semibold">
-            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Tapi website anda ambil 5 saat nak load. 80 orang terus tutup tab — sebelum sempat tengok tawaran anda. Bermakna RM200 dari bajet iklan anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
+            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Website load. Mereka scroll. Tapi tiada yang beli. Tiada yang isi borang. Tiada yang hubungi. Kenapa? Sebab website anda bukan direka untuk menjual — ia direka untuk dipandang sahaja. Dan RM500 anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
           </motion.p>
-          <motion.p variants={textVariants} className="text-slate-300 text-sm leading-relaxed">
-            Ini bukan matematik hypothetical. Ini yang berlaku kepada peniaga setiap hari. Dan ia berlaku kerana satu sebab sahaja: <strong className="text-white font-bold">website yang bukan direka untuk kelajuan.</strong>
+          <motion.p variants={textVariants} className="text-slate-350 text-sm leading-relaxed">
+            Website lembap baru separuh masalah. Masalah yang lebih besar adalah website yang macam labirin (sesat).
+            <br /><br />
+            Cuba cek website anda sekarang: Adakah menu dia terlalu banyak? Adakah teks tulisan berpusing-pusing sampai pelawat pening? Adakah butang untuk hubungi anda tersorok?
+            <br /><br />
+            Website yang berserabut, tiada aliran visitor journey yang jelas, dan CTA yang mengelirukan adalah pembunuh senyap wang iklan anda. Pelawat masuk, pening, dan terus pangkah.
           </motion.p>
           <motion.p variants={textVariants} className="text-slate-400 text-sm leading-relaxed">
             Berikut adalah perbandingan audit sebenar. Lihat sendiri bezanya.
@@ -515,22 +519,26 @@ export default function RealitiPahit() {
         <div className="space-y-4 text-center">
           <div className="flex justify-center">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold tracking-widest uppercase bg-primary/10 text-primary px-3.5 py-1.5 rounded-full border border-primary/20 shadow-xs">
-              💸 AKAUN BANK ANDA SEDANG BERDARAH
+              💸 KENAPA 'SHOWROOM' DIGITAL ANDA SUNYI WALAUPUN ANDA RUN ADS
             </span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight leading-tight text-white">
-            Website Lembab ={" "}
+            Website Cantik Tapi Senyap ={" "}
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_2px_15px_rgba(234,179,8,0.25)] block">
               Mesin Membakar Wang
             </span>
           </h2>
           
           <p className="text-slate-200 text-xs sm:text-sm leading-relaxed font-semibold">
-            Bayangkan situasi ini: RM500 bajet iklan. 200 orang klik. Website ambil 5 saat nak load. 80 orang tutup tab. <strong className="text-red-500">RM200 hangus untuk TIADA APA-APA.</strong>
+            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Website load. Mereka scroll. Tapi tiada yang beli. Tiada yang isi borang. Tiada yang hubungi. Kenapa? Sebab website anda bukan direka untuk menjual — ia direka untuk dipandang sahaja. Dan RM500 anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
           </p>
-          <p className="text-slate-400 text-xs leading-relaxed">
-            Ini yang berlaku setiap hari kepada peniaga yang run ads dengan website yang lembab.
+          <p className="text-slate-400 text-xs leading-relaxed mt-3">
+            Website lembap baru separuh masalah. Masalah yang lebih besar adalah website yang macam labirin (sesat).
+            <br /><br />
+            Cuba cek website anda sekarang: Adakah menu dia terlalu banyak? Adakah teks tulisan berpusing-pusing sampai pelawat pening? Adakah butang untuk hubungi anda tersorok?
+            <br /><br />
+            Website yang berserabut, tiada aliran visitor journey yang jelas, dan CTA yang mengelirukan adalah pembunuh senyap wang iklan anda. Pelawat masuk, pening, dan terus pangkah.
           </p>
 
           {/* Switcher Button */}

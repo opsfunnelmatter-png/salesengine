@@ -9,7 +9,7 @@ interface FAQItem {
   answer: string;
 }
 
-export default function FAQ() {
+export default function FAQV2() {
   const faqData: FAQItem[] = [
     {
       question: "Saya bukan orang IT. Adakah saya akan sesat dengan website ni nanti?",
@@ -28,8 +28,8 @@ export default function FAQ() {
       answer: "Tidak langsung. Copywriting jualan (CRO copy) disiapkan sepenuhnya oleh kami berdasarkan borang briefing ringkas yang anda isi — tentang produk anda, target pelanggan, dan USP bisnes anda. Kami rangka headline yang hook, body copy yang convince, dan CTA yang mendorong tindakan. Anda hanya perlu approve.",
     },
     {
-      question: "72 jam delivery nampak macam terlalu cepat. Apa yang siap dalam masa tu?",
-      answer: "Dalam 72 jam, anda terima draf pertama website anda yang sudah fully coded, live, dan berfungsi — termasuk borang, tracking pixel, dan domain. Ia mungkin ada satu atau dua tweak kecil berdasarkan feedback anda, tapi website anda sudah boleh receive trafik ads. Kenapa boleh buat secepat ini? Kerana proses kami sudah streamlined dari pengalaman membina puluhan website — bukan kerana kami potong corner.",
+      question: "Garis masa penghantaran (delivery timeline) nampak cepat. Bagaimana proses ini berjalan?",
+      answer: "Garis masa kami adalah realistik mengikut keperluan bisnes anda. Untuk Pakej Launch (Salespage) yang standard, draf pertama sedia dalam masa 72 jam kerana strukturnya sudah sedia optimum. Untuk Pakej Authority (Funnel Penuh), masa yang diambil adalah 5 hari bekerja. Manakala untuk Custom/Corporate Website yang memerlukan integrasi kompleks, tempoh masa adalah antara 7 hingga 14 hari bekerja (atau lebih, bergantung kepada skop). Kami mementingkan kualiti struktur UI/UX dan CRO; kami bergerak pantas kerana sistem kerja kami tersusun, bukan kerana kami tangkap muat.",
     },
     {
       question: "Jika saya tak puas hati atau nak developer lain sambung nanti, macam mana?",

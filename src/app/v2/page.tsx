@@ -1,6 +1,6 @@
 import React from "react";
 import HeroV2 from "@/components/HeroV2";
-import RealitiPahit from "@/components/RealitiPahit";
+import RealitiPahitV2 from "@/components/RealitiPahitV2";
 import Formula3J from "@/components/Formula3J";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
@@ -11,7 +11,7 @@ import HowItWorksV2 from "@/components/HowItWorksV2";
 import UrgencyStrip from "@/components/UrgencyStrip";
 import PricingV2 from "@/components/PricingV2";
 import GuaranteeV2 from "@/components/GuaranteeV2";
-import FAQ from "@/components/FAQ";
+import FAQV2 from "@/components/FAQV2";
 import StickyCTA from "@/components/StickyCTA";
 import BottomCTAV2 from "@/components/BottomCTAV2";
 import FixedBackground from "@/components/FixedBackground";
@@ -28,7 +28,7 @@ export default function HomeV2() {
         <HeroV2 />
 
         {/* Realiti Pahit Comparison Section */}
-        <RealitiPahit />
+        <RealitiPahitV2 />
 
         {/* Formula 3J Section */}
         <Formula3J />
@@ -64,7 +64,7 @@ export default function HomeV2() {
         <GuaranteeV2 />
 
         {/* FAQ Section */}
-        <FAQ />
+        <FAQV2 />
 
         {/* Bottom Call to Action Scroll-Up */}
         <BottomCTAV2 />
