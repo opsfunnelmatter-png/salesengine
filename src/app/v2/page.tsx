@@ -1,6 +1,7 @@
 import React from "react";
 import HeroV2 from "@/components/HeroV2";
 import RealitiPahit from "@/components/RealitiPahit";
+import Formula3J from "@/components/Formula3J";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
 import PerformanceShowcase from "@/components/PerformanceShowcase";
@@ -28,6 +29,9 @@ export default function HomeV2() {
 
         {/* Realiti Pahit Comparison Section */}
         <RealitiPahit />
+
+        {/* Formula 3J Section */}
+        <Formula3J />
 
         {/* Portfolio Showcase */}
         <Portfolio />

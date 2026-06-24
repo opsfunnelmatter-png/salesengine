@@ -429,10 +429,10 @@ export default function HeroV2() {
                   className="grid grid-cols-2 lg:grid-cols-4 gap-2 max-w-xl py-0.5"
                 >
                   {[
-                    { emoji: "⚡", title: "0.5s Load Speed", desc: "No lost leads" },
-                    { emoji: "🛡️", title: "SSL Security", desc: "Secure Checkout" },
-                    { emoji: "🤖", title: "AI SEO Optimized", desc: "Google & AI Searchable" },
-                    { emoji: "📈", title: "CRO Structure", desc: "Sales-Focused Design" }
+                    { emoji: "⚡", title: "Kelajuan Ultra-Laju (<0.5s)", desc: "Halang pelawat lari sebelum sempat tengok produk." },
+                    { emoji: "🗺️", title: "Aliran Prospek Terancang", desc: "Pelawat dipandu terus ke butang beli tanpa sesat." },
+                    { emoji: "🎨", title: "UI/UX Premium & Bersih", desc: "Reka bentuk moden, dioptimumkan untuk telefon pintar." },
+                    { emoji: "📈", title: "Struktur CRO Ditapis", desc: "CTA diletakkan strategik ikut psikologi jualan." }
                   ].map((item, idx) => (
                     <motion.div
                       key={idx}

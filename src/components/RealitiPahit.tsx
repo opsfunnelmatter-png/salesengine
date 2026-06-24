@@ -164,8 +164,12 @@ export default function RealitiPahit() {
           <motion.p variants={textVariants} className="text-slate-200 text-base leading-relaxed font-semibold">
             Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Website load. Mereka scroll. Tapi tiada yang beli. Tiada yang isi borang. Tiada yang hubungi. Kenapa? Sebab website anda bukan direka untuk menjual — ia direka untuk dipandang sahaja. Dan RM500 anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
           </motion.p>
-          <motion.p variants={textVariants} className="text-slate-300 text-sm leading-relaxed">
-            Ini bukan matematik hypothetical. Ini yang berlaku kepada peniaga setiap hari. Dan ia berlaku kerana satu sebab: <strong className="text-white font-bold">website yang direka untuk dipandang, bukan untuk menjual.</strong> Kelajuan adalah sebahagian daripada masalah. Struktur, copywriting, dan aliran pengguna — itulah baki masalah yang senyap.
+          <motion.p variants={textVariants} className="text-slate-350 text-sm leading-relaxed">
+            Website lembap baru separuh masalah. Masalah yang lebih besar adalah website yang macam labirin (sesat).
+            <br /><br />
+            Cuba cek website anda sekarang: Adakah menu dia terlalu banyak? Adakah teks tulisan berpusing-pusing sampai pelawat pening? Adakah butang untuk hubungi anda tersorok?
+            <br /><br />
+            Website yang berserabut, tiada aliran visitor journey yang jelas, dan CTA yang mengelirukan adalah pembunuh senyap wang iklan anda. Pelawat masuk, pening, dan terus pangkah.
           </motion.p>
           <motion.p variants={textVariants} className="text-slate-400 text-sm leading-relaxed">
             Berikut adalah perbandingan audit sebenar. Lihat sendiri bezanya.
@@ -527,10 +531,14 @@ export default function RealitiPahit() {
           </h2>
           
           <p className="text-slate-200 text-xs sm:text-sm leading-relaxed font-semibold">
-            Bayangkan situasi ini: RM500 bajet iklan. 200 orang klik. Website ambil 5 saat nak load. 80 orang tutup tab. <strong className="text-red-500">RM200 hangus untuk TIADA APA-APA.</strong>
+            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Website load. Mereka scroll. Tapi tiada yang beli. Tiada yang isi borang. Tiada yang hubungi. Kenapa? Sebab website anda bukan direka untuk menjual — ia direka untuk dipandang sahaja. Dan RM500 anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
           </p>
-          <p className="text-slate-400 text-xs leading-relaxed">
-            Ini yang berlaku setiap hari kepada peniaga yang run ads dengan website yang lembab.
+          <p className="text-slate-400 text-xs leading-relaxed mt-3">
+            Website lembap baru separuh masalah. Masalah yang lebih besar adalah website yang macam labirin (sesat).
+            <br /><br />
+            Cuba cek website anda sekarang: Adakah menu dia terlalu banyak? Adakah teks tulisan berpusing-pusing sampai pelawat pening? Adakah butang untuk hubungi anda tersorok?
+            <br /><br />
+            Website yang berserabut, tiada aliran visitor journey yang jelas, dan CTA yang mengelirukan adalah pembunuh senyap wang iklan anda. Pelawat masuk, pening, dan terus pangkah.
           </p>
 
           {/* Switcher Button */}
