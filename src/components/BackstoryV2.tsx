@@ -34,13 +34,13 @@ export default function BackstoryV2() {
             📖 KISAH DI SEBALIK AROS
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight leading-tight text-white">
-            Kami Tak Bina Website Biasa.{" "}
+            Kami Pun Pernah Ada 'Showroom Sunyi'.{" "}
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_2px_15px_rgba(234,179,8,0.25)] block mt-1">
-              Kami Bina Mesin Jualan Yang Beroperasi 24/7.
+              Ini Yang Kami Buat Untuk Mengatasinya.
             </span>
           </h2>
           <p className="text-slate-300 text-sm md:text-base leading-relaxed font-medium">
-            Ini kisah bagaimana kami sedar bahawa 9 dari 10 website perniagaan Malaysia hanyalah 'brosur digital' — cantik dipandang, tapi tidak pandai menjual.
+            Ini kisah bagaimana kami sedar bahawa hampir semua website perniagaan Malaysia adalah 'showroom sunyi' — cantik dipandang, tapi senyap tanpa sales. Dan bagaimana kami reka semula formula itu dari asas.
           </p>
         </div>
 

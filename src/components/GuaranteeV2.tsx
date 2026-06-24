@@ -28,7 +28,7 @@ export default function GuaranteeV2() {
 
             <div className="mb-6 space-y-2 max-w-xl">
               <span className="inline-flex items-center gap-1 text-[9px] font-mono font-bold tracking-widest text-amber-300 uppercase bg-amber-400/10 px-3.5 py-1 rounded-full border border-amber-300/20">
-                🤝 KOMITMEN PERIBADI KAMI KEPADA ANDA
+                🛡️ KAMI TANGGUNG RISIKO — BUKAN ANDA
               </span>
               <h2 className="text-sm font-mono font-black text-slate-350 uppercase tracking-widest">
                 Perjanjian Jaminan Penghantaran Rasmi (SLA)

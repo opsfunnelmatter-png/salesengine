@@ -24,8 +24,8 @@ export default function BottomCTAV2() {
           </span>
         </div>
         <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black text-white tracking-tight leading-tight">
-          Setiap Hari Tanpa Website Yang Menjual,{" "}
-          <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(234,179,8,0.2)] block mt-2">Pesaing Anda Satu Langkah Lebih Jauh.</span>
+          Showroom Sunyi Dah Cukup Lama.{" "}
+          <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(234,179,8,0.2)] block mt-2">Masa Untuk Bina Mesin Yang Bekerja Untuk Anda.</span>
         </h2>
         <div className="space-y-3">
           <p className="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm md:text-base leading-relaxed font-medium">
@@ -33,7 +33,7 @@ export default function BottomCTAV2() {
             <strong className="text-white">Isi borang dalam 5 minit. Kami akan hubungi anda secepat mungkin.</strong>
           </p>
           <p className="text-slate-400 text-xs">
-            Atau teruskan dengan 'showroom digital' yang sunyi. Pilihan ada di tangan anda.
+            Atau biarkan showroom sunyi tu terus makan bajet iklan anda setiap hari. Pilihan memang ada di tangan anda — tapi masa tidak tunggu sesiapa.
           </p>
         </div>
         <div className="pt-2">

@@ -29,7 +29,7 @@ export default function FAQ() {
     },
     {
       question: "72 jam delivery nampak macam terlalu cepat. Apa yang siap dalam masa tu?",
-      answer: "Dalam 72 jam, anda terima draf pertama website anda yang sudah fully coded, live, dan berfungsi — termasuk borang, tracking pixel, dan domain. Ia mungkin ada satu atau dua tweak kecil berdasarkan feedback anda, tapi website anda sudah boleh receive trafik ads. Kenapa boleh buat secepat ini? Kerana proses kami sudah streamlined dari pengalaman membina puluhan website — bukan kerana kami potong corner.",
+      answer: "Dalam 72 jam, anda terima draf pertama website anda yang sudah fully coded, live, dan berfungsi — termasuk borang, tracking pixel, dan domain. Ia mungkin ada satu atau dua tweak kecil berdasarkan feedback anda, tapi website anda sudah boleh receive trafik ads. Kenapa boleh buat secepat ini? Kerana proses kami sudah streamlined dari pengalaman membina puluhan website — bukan kerana kami potong corner. Dalam 72 jam itu, bukan sekadar website yang siap — mesin jualan anda yang lengkap dengan tracking, copywriting, dan borang lead sudah bersedia untuk menerima pelawat pertama anda.",
     },
     {
       question: "Jika saya tak puas hati atau nak developer lain sambung nanti, macam mana?",

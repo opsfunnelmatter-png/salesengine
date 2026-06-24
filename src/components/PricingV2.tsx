@@ -260,7 +260,7 @@ export default function PricingV2() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
           <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold tracking-widest text-[#FF9900] bg-[#FF9900]/10 px-3 py-1.5 rounded-md border border-[#FF9900]/20 shadow-sm">
-            💰 BERHENTI BINA 'SHOWROOM' SUNYI. BINA MESIN JUALAN MANDIRI.
+            💰 PILIH PAKEJ ENJIN JUALAN ANDA — BAYAR SEKALI, BEROPERASI SEUMUR HIDUP.
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight text-white leading-tight">
             Sistem Asas Bayar Sekali.{" "}
@@ -276,7 +276,7 @@ export default function PricingV2() {
           <div className="mt-6 inline-flex items-start gap-2.5 bg-red-500/8 border border-red-500/20 rounded-2xl px-5 py-3.5 text-left max-w-2xl mx-auto">
             <span className="text-red-400 text-base shrink-0 mt-0.5">⚠️</span>
             <p className="text-xs text-red-300/90 leading-relaxed font-medium">
-              <strong className="text-red-300">Kos sebenar &quot;tunggu dulu&quot;:</strong> Setiap hari anda menggunakan website yang lembap dan tiada sistem saringan bermakna trafik iklan yang anda bayar mahal-mahal sedang bocor ke tangan pesaing. Purata kerugian:{" "}
+              <strong className="text-red-300">Kos sebenar &quot;tunggu dulu&quot;:</strong> Setiap hari showroom sunyi anda masih online, trafik iklan yang anda bayar sedang memberi makan kepada pesaing. Purata:{" "}
               <strong className="text-red-200">RM 500–2,000 bajet iklan hangus setiap bulan.</strong>
             </p>
           </div>

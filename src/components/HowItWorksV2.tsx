@@ -47,10 +47,10 @@ export default function HowItWorksV2() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight text-white leading-tight">
             3 Langkah. Website Anda{" "}
-            <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(234,179,8,0.2)] block mt-2">Live Dan Bersedia Untuk Bisnes.</span>
+            <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(234,179,8,0.2)] block mt-2">Live Dan Bekerja 24/7 Untuk Anda.</span>
           </h2>
           <p className="text-slate-300 text-sm md:text-base font-medium leading-relaxed">
-            Anda isi borang ringkas. Kami buat selebihnya. Senang macam tu.
+            Anda isi borang ringkas. Kami bina mesin jualan anda. 72 jam. Siap.
           </p>
         </div>
 
@@ -152,8 +152,8 @@ export default function HowItWorksV2() {
           <p className="text-xs text-slate-500 font-mono">Percuma. 3 soalan. Jawab dalam 60 saat.</p>
           {/* Bridge to Backstory */}
           <p className="text-xs text-slate-500 font-mono pt-2 max-w-sm mx-auto leading-relaxed">
-            Dan orang yang buat semua tu untuk anda —{" "}
-            <span className="text-slate-400 font-bold">pasukan yang faham bisnes, bukan hanya kod.</span>
+            Mesin jualan anda sedia. Soal sekarang:{" "}
+            <span className="text-slate-400 font-bold">berapa lama lagi anda nak biarkan pesaing jauh ke depan?</span>
           </p>
         </div>
 

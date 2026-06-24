@@ -150,22 +150,22 @@ export default function RealitiPahit() {
         <motion.div variants={containerVariants} className="text-center max-w-3xl mx-auto space-y-5">
           <motion.div variants={badgeVariants} className="flex justify-center">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold tracking-widest uppercase bg-amber-400/10 text-amber-300 px-3.5 py-1.5 rounded-full border border-amber-300/20 shadow-xs">
-              💸 AKAUN BANK ANDA SEDANG BERDARAH
+              💸 KENAPA 'SHOWROOM' DIGITAL ANDA SUNYI WALAUPUN ANDA RUN ADS
             </span>
           </motion.div>
           
           <motion.h2 variants={textVariants} className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight leading-tight text-white">
-            Website Slow Bukan Masalah IT.{" "}
+            Website Yang Tidak Pandai Menjual Bukan Masalah Rekaan.{" "}
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_2px_15px_rgba(234,179,8,0.25)] inline-block">
               Ia Adalah Mesin Pembaziran Wang Yang Paling Mahal Anda Miliki.
             </span>
           </motion.h2>
           
           <motion.p variants={textVariants} className="text-slate-200 text-base leading-relaxed font-semibold">
-            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Tapi website anda ambil 5 saat nak load. 80 orang terus tutup tab — sebelum sempat tengok tawaran anda. Bermakna RM200 dari bajet iklan anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
+            Bayangkan situasi ini: Anda habiskan RM500 untuk iklan. 200 orang klik. Website load. Mereka scroll. Tapi tiada yang beli. Tiada yang isi borang. Tiada yang hubungi. Kenapa? Sebab website anda bukan direka untuk menjual — ia direka untuk dipandang sahaja. Dan RM500 anda tu hangus <strong className="text-red-500">untuk TIADA APA-APA.</strong>
           </motion.p>
           <motion.p variants={textVariants} className="text-slate-300 text-sm leading-relaxed">
-            Ini bukan matematik hypothetical. Ini yang berlaku kepada peniaga setiap hari. Dan ia berlaku kerana satu sebab sahaja: <strong className="text-white font-bold">website yang bukan direka untuk kelajuan.</strong>
+            Ini bukan matematik hypothetical. Ini yang berlaku kepada peniaga setiap hari. Dan ia berlaku kerana satu sebab: <strong className="text-white font-bold">website yang direka untuk dipandang, bukan untuk menjual.</strong> Kelajuan adalah sebahagian daripada masalah. Struktur, copywriting, dan aliran pengguna — itulah baki masalah yang senyap.
           </motion.p>
           <motion.p variants={textVariants} className="text-slate-400 text-sm leading-relaxed">
             Berikut adalah perbandingan audit sebenar. Lihat sendiri bezanya.
@@ -515,12 +515,12 @@ export default function RealitiPahit() {
         <div className="space-y-4 text-center">
           <div className="flex justify-center">
             <span className="inline-flex items-center gap-1.5 text-xs font-mono font-bold tracking-widest uppercase bg-primary/10 text-primary px-3.5 py-1.5 rounded-full border border-primary/20 shadow-xs">
-              💸 AKAUN BANK ANDA SEDANG BERDARAH
+              💸 KENAPA 'SHOWROOM' DIGITAL ANDA SUNYI WALAUPUN ANDA RUN ADS
             </span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-[38px] font-black tracking-tight leading-tight text-white">
-            Website Lembab ={" "}
+            Website Cantik Tapi Senyap ={" "}
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_2px_15px_rgba(234,179,8,0.25)] block">
               Mesin Membakar Wang
             </span>
