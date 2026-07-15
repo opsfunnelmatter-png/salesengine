@@ -29,11 +29,11 @@ export default function BottomCTAV2() {
         </h2>
         <div className="space-y-3">
           <p className="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm md:text-base leading-relaxed font-medium">
-            Anda dah baca sampai sini. Anda tahu website yang tidak pandai menjual bukan sekadar kerugian masa — ia kerugian wang dan peluang setiap hari. Satu-satunya langkah yang tinggal adalah ambil tindakan.{" "}
-            <strong className="text-white">Isi borang dalam 5 minit. Kami akan hubungi anda secepat mungkin.</strong>
+            Anda dah tahu masalahnya. Satu langkah je yang tinggal.{" "}
+            <strong className="text-white">Isi borang 5 minit. Kami hubungi anda secepat mungkin.</strong>
           </p>
           <p className="text-slate-400 text-xs">
-            Atau biarkan showroom sunyi tu terus makan bajet iklan anda setiap hari. Pilihan memang ada di tangan anda — tapi masa tidak tunggu sesiapa.
+            Atau biarkan showroom sunyi tu terus hanguskan bajet iklan anda. Masa tak tunggu sesiapa.
           </p>
         </div>
         <div className="pt-2">
@@ -65,7 +65,7 @@ export default function BottomCTAV2() {
       <PackageContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        initialPackage="Pakej Authority (RM1,899)"
+        initialPackage="Pakej Authority (RM 1,899)"
       />
     </section>
   );

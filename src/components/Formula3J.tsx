@@ -27,7 +27,7 @@ export default function Formula3J() {
     {
       title: "JELAS",
       subtitle: "Strategic UI/UX & Flow",
-      desc: "Kami tak sumbat semua benda dalam satu page sampai semak. Kami susun aliran maklumat ikut psikologi pelanggan membaca. Masuk, faham, nak beli.",
+      desc: "Aliran maklumat disusun ikut psikologi pelanggan membaca. Masuk, faham, nak beli.",
       icon: Map,
       color: "from-blue-400 to-cyan-500",
       bgGlow: "bg-blue-500/10",
@@ -37,7 +37,7 @@ export default function Formula3J() {
     {
       title: "LAJU",
       subtitle: "Next-Gen Engine",
-      desc: "Dijamin loading kurang 1 saat. Trafik dari Google Ads takkan membazir sebab menunggu page berpusing-pusing.",
+      desc: "Loading kurang 1 saat. Trafik ads takkan hangus sebab menunggu page load.",
       icon: Zap,
       color: "from-amber-400 to-yellow-500",
       bgGlow: "bg-amber-500/10",
@@ -47,7 +47,7 @@ export default function Formula3J() {
     {
       title: "MENJUAL",
       subtitle: "CRO & Copywriting",
-      desc: "Kami bantu drafkan ayat jualan yang memikat. Butang CTA diletakkan di zon mudah klik (Hot Zone) pada paparan telefon pintar.",
+      desc: "Copywriting jualan siap kami drafkan. CTA diletakkan di Hot Zone telefon pintar untuk klik mudah.",
       icon: Coins,
       color: "from-emerald-400 to-teal-500",
       bgGlow: "bg-emerald-500/10",

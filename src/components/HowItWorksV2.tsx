@@ -10,7 +10,7 @@ export default function HowItWorksV2() {
     {
       step: "01",
       title: "Isi Borang (5 Minit) — Hari 0",
-      desc: "Isi borang ringkas dalam 5 minit. Kongsi apa yang anda jual, siapa pelanggan anda, dan apa yang anda nak orang buat di website tu. Kami akan hubungi anda untuk perbincangan.",
+      desc: "Isi borang 5 minit. Kongsi produk, target pelanggan, dan apa yang anda nak orang buat di website.",
       microcopy: "Tiada meeting panjang. Tiada Zoom call yang membazirkan masa anda.",
       icon: Send,
       image: "/images/step-form-mockup.png",
@@ -18,7 +18,7 @@ export default function HowItWorksV2() {
     {
       step: "02",
       title: "Kami Buat Semua, Anda Review — Hari 1-2",
-      desc: "Kami rangka visual, tulis copywriting jualan, dan siapkan draf pertama. Anda hanya perlu review dan bagi thumbs up. Tak faham sesuatu? Kami terangkan dalam bahasa manusia, bukan bahasa IT.",
+      desc: "Kami rangka visual, tulis copywriting jualan, dan siapkan draf pertama. Anda review, bagi thumbs up. Siap.",
       microcopy: "Copywriting jualan termasuk. Anda tak perlu tulis satu ayat pun.",
       icon: FileText,
       image: "/images/step-design-mockup.png",
@@ -26,8 +26,8 @@ export default function HowItWorksV2() {
     {
       step: "03",
       title: "Launch — Website Live & Ready — Hari 3",
-      desc: "Domain di-connect. Pixel iklan dipasang (Meta, Google, TikTok). Dashboard leads anda disiapkan. Website anda go-live dan bersedia untuk menerima pelanggan dari minit pertama.",
-      microcopy: "SLA kami jelas: 72 jam (Launch), 5 hari (Authority), 7 hari (Corporate). Lewat? Refund penuh.",
+      desc: "Domain live. Pixel iklan terpasang (Meta, Google, TikTok). Dashboard leads ready. Website anda buka perniagaan dari minit pertama.",
+      microcopy: "SLA kami jelas: 5 hari (Launch), 7 hari (Authority), bermula 14 hari (Corporate). Lewat? Refund penuh.",
       icon: Globe,
       image: "/images/step-live-mockup.png",
     },
@@ -50,7 +50,7 @@ export default function HowItWorksV2() {
             <span className="bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(234,179,8,0.2)] block mt-2">Live Dan Bekerja 24/7 Untuk Anda.</span>
           </h2>
           <p className="text-slate-300 text-sm md:text-base font-medium leading-relaxed">
-            Anda isi borang ringkas. Kami bina mesin jualan anda. 72 jam. Siap.
+            Anda isi borang ringkas. Kami bina mesin jualan anda mengikut SLA. Siap.
           </p>
         </div>
 

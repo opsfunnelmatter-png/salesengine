@@ -31,7 +31,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "+3x Leads Dalam 2 Minggu",
     badge_color: "text-emerald-400 bg-emerald-400/5 border-emerald-400/20",
     quote_headline: "Dalam masa 2 minggu selepas launch, borang enquiry kami naik 3x ganda.",
-    quote_body: "Sebelum ni kami pakai WordPress. Loading ambil 6-7 saat. Bajet iklan kami RM2k sebulan tapi leads jatuh je. Lepas AROS setup website baru, dalam 2 minggu pertama enquiry naik drastik. Sekarang kami confident nak naikkan bajet sebab tahu website boleh handle.",
+    quote_body: "Loading WordPress kami 6-7 saat, leads jatuh je. Lepas AROS, 2 minggu pertama enquiry naik 3x — sekarang kami naikkan bajet sebab tahu website boleh handle.",
     industry_icon: "🏠",
     industry: "Hartanah",
   },
@@ -45,7 +45,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "Leads Organik Daily ✅",
     badge_color: "text-emerald-400 bg-emerald-400/5 border-emerald-400/20",
     quote_headline: "Orang bukan IT macam saya pun boleh faham.",
-    quote_body: "Dashboard dia senang gila nak guna. Website load laju kat phone dan leads masuk hampir setiap hari sekarang.",
+    quote_body: "Dashboard senang guna, website load laju kat phone. Leads masuk hampir setiap hari sekarang.",
     industry_icon: "🎓",
     industry: "Coaching",
   },
@@ -59,7 +59,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "Sistem Booking Lancar ⚡",
     badge_color: "text-amber-400 bg-amber-400/5 border-amber-400/20",
     quote_headline: "Sistem booking yang AROS bina sangat fast-responsive.",
-    quote_body: "Sebelum ni website lama kami selalu crash bila kami blast kempen di media sosial. Lepas AROS setup booking funnel baharu, trafik masuk lancar tanpa lag dan pelanggan boleh bayar terus. Sangat membantu memudahkan jualan tiket kami.",
+    quote_body: "Website lama crash setiap kali blast kempen. Lepas AROS setup funnel, pelanggan bayar terus dari website. Zero lag.",
     industry_icon: "🎟️",
     industry: "Acara & Tiket",
   },
@@ -73,7 +73,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "+35% Closing Rate Ads",
     badge_color: "text-teal-400 bg-teal-400/5 border-teal-400/20",
     quote_headline: "Prospek yang masuk WhatsApp sekarang dah ready nak bayar.",
-    quote_body: "Dulu prospek masuk WhatsApp sekadar tanya harga pastu senyap. Lepas AROS susun semula pakej percutian kami dengan format CRO, prospek yang masuk dah ready nak bayar deposit. Memang jimat kos iklan.",
+    quote_body: "Dulu prospek tanya harga pastu senyap. Lepas AROS susun CRO, prospek yang masuk dah ready bayar deposit.",
     industry_icon: "✈️",
     industry: "Pelancongan",
   },
@@ -87,7 +87,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "-80% Spam Chat WhatsApp",
     badge_color: "text-emerald-400 bg-emerald-400/5 border-emerald-400/20",
     quote_headline: "Borang saringan pintar sangat menjimatkan masa klinik kami.",
-    quote_body: "Dulu staf admin penat layan spam chat di WhatsApp. Lepas AROS bina borang saringan interaktif ni, pesakit yang submit borang dah tahu harga rawatan dan slot masa kosong. Admin cuma perlu sahkan temujanji sahaja.",
+    quote_body: "Borang saringan AROS menyaring pesakit secara automatik — mereka dah tahu harga & slot. Admin cuma perlu sahkan temujanji.",
     industry_icon: "🦷",
     industry: "Kesihatan Gigi",
   },
@@ -101,7 +101,7 @@ const TESTIMONIALS: TestimonialCard[] = [
     badge_text: "Conversion Rate Naik 📈",
     badge_color: "text-amber-400 bg-amber-400/5 border-amber-400/20",
     quote_headline: "TikTok Ads convert lebih baik.",
-    quote_body: "Bila tukar ke speed engine AROS, conversion rate iklan TikTok kami naik mendadak sebab orang klik terus dapat tengok produk tanpa tunggu loading lama.",
+    quote_body: "Tukar ke AROS speed engine — conversion rate TikTok Ads naik mendadak. Orang klik, terus nampak produk.",
     industry_icon: "🌿",
     industry: "Kesihatan",
   },
@@ -136,7 +136,7 @@ export default function Testimonials() {
             </span>
           </h2>
           <p className="text-slate-350 text-sm md:text-base font-medium leading-relaxed max-w-2xl mx-auto">
-            Peniaga Malaysia dari pelbagai industri — hartanah, e-commerce, servis profesional — semua nampak perbezaan yang sama: lebih leads, lebih sales, lebih ROI.
+            Dari hartanah ke klinik ke e-commerce — hasilnya sama: lebih leads, lebih sales.
           </p>
         </div>
 
@@ -232,7 +232,7 @@ export default function Testimonials() {
             </div>
             <div className="py-2 sm:py-0 sm:px-4">
               <div className="text-3xl font-black font-mono text-white">⚡ 100%</div>
-              <div className="text-xs text-slate-350 font-medium mt-1">Delivery Dalam 72 Jam</div>
+              <div className="text-xs text-slate-350 font-medium mt-1">Menepati Tempoh SLA</div>
             </div>
           </div>
         </motion.div>

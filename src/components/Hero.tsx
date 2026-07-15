@@ -10,7 +10,6 @@ import LogoMarquee from "./LogoMarquee";
 export default function Hero() {
   const [isMounted, setIsMounted] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
 
   const [isFormExpanded, setIsFormExpanded] = useState(false);
   const [isDesktop, setIsDesktop] = useState(false);
@@ -64,7 +63,6 @@ export default function Hero() {
 
     const handleScroll = () => {
       const currentScroll = window.scrollY;
-      setScrollY(currentScroll);
       
       // Sticky when scrolled past the navbar area (approx 96px)
       if (currentScroll > 90) {

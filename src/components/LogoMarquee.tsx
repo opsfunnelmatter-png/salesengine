@@ -215,8 +215,6 @@ export default function LogoMarquee() {
 
       {/* Import brand Google Fonts and style them realistically */}
       <style dangerouslySetInnerHTML={{ __html: `
-        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600;700&family=Space+Grotesk:wght@700&family=Outfit:wght@500;700&family=Inter:wght@700;800&display=swap');
-
         @keyframes marquee {
           0% { transform: translateX(0%); }
           100% { transform: translateX(-50%); }
@@ -232,48 +230,48 @@ export default function LogoMarquee() {
 
         /* Brand Typography classes */
         .font-nextjs {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 800;
           letter-spacing: -0.06em;
         }
         .font-vercel {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 700;
           letter-spacing: -0.05em;
         }
         .font-railway {
-          font-family: 'Space Grotesk', sans-serif;
+          font-family: var(--font-space-grotesk), sans-serif;
           font-weight: 700;
           letter-spacing: -0.04em;
         }
         .font-google {
-          font-family: 'Product Sans', 'Google Sans', 'Outfit', sans-serif;
+          font-family: 'Product Sans', 'Google Sans', var(--font-outfit), sans-serif;
           font-weight: 500;
           letter-spacing: -0.02em;
         }
         .font-meta {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 700;
           letter-spacing: -0.03em;
         }
         .font-wordpress {
-          font-family: 'EB Garamond', Georgia, serif;
+          font-family: var(--font-eb-garamond), Georgia, serif;
           font-weight: 700;
           font-size: 1.45rem !important;
           letter-spacing: -0.01em;
         }
         .font-elementor {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 700;
           letter-spacing: -0.02em;
         }
         .font-hostinger {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 800;
           letter-spacing: -0.03em;
         }
         .font-stripe {
-          font-family: 'Inter', sans-serif;
+          font-family: var(--font-inter), sans-serif;
           font-weight: 800;
           letter-spacing: -0.04em;
           text-transform: lowercase;

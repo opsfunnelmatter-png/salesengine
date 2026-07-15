@@ -1,18 +1,19 @@
 import React from "react";
-import Hero from "@/components/Hero";
-import RealitiPahit from "@/components/RealitiPahit";
+import HeroV2 from "@/components/HeroV2";
+import RealitiPahitV2 from "@/components/RealitiPahitV2";
+import Formula3J from "@/components/Formula3J";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
 import PerformanceShowcase from "@/components/PerformanceShowcase";
 import WidgetShowcase from "@/components/WidgetShowcase";
-import Backstory from "@/components/Backstory";
-import HowItWorks from "@/components/HowItWorks";
+import BackstoryV2 from "@/components/BackstoryV2";
+import HowItWorksV2 from "@/components/HowItWorksV2";
 import UrgencyStrip from "@/components/UrgencyStrip";
-import Pricing from "@/components/Pricing";
-import Guarantee from "@/components/Guarantee";
-import FAQ from "@/components/FAQ";
+import PricingV2 from "@/components/PricingV2";
+import GuaranteeV2 from "@/components/GuaranteeV2";
+import FAQV2 from "@/components/FAQV2";
 import StickyCTA from "@/components/StickyCTA";
-import BottomCTA from "@/components/BottomCTA";
+import BottomCTAV2 from "@/components/BottomCTAV2";
 import FixedBackground from "@/components/FixedBackground";
 
 export default function Home() {
@@ -23,11 +24,14 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex-1 relative z-10">
-        {/* Hero Section (Contains Integrated Navbar & Logo Marquee) */}
-        <Hero />
+        {/* Hero Section V2 (Contains Integrated Navbar & Logo Marquee) */}
+        <HeroV2 />
 
         {/* Realiti Pahit Comparison Section */}
-        <RealitiPahit />
+        <RealitiPahitV2 />
+
+        {/* Formula 3J Section */}
+        <Formula3J />
 
         {/* Portfolio Showcase */}
         <Portfolio />
@@ -44,29 +48,28 @@ export default function Home() {
         */}
         
         {/* Founders Transparent Backstory */}
-        <Backstory />
+        <BackstoryV2 />
 
         {/* 3-Step Timeline Process (NEW Fasa 6 Element) */}
-        <HowItWorks />
+        <HowItWorksV2 />
 
         {/* Urgency Progress Strip - TEMPORARILY HIDDEN
         <UrgencyStrip />
         */}
 
-        {/* Pricing Matrix & Checkout Bumps */}
-        <Pricing />
+        {/* Pricing Matrix & Checkout Bumps V2 */}
+        <PricingV2 />
 
-        {/* Jaminan Refund 48 Jam (NEW Fasa 6 Element) */}
-        <Guarantee />
+        {/* Jaminan Refund 48 Jam V2 */}
+        <GuaranteeV2 />
 
         {/* FAQ Section */}
-        <FAQ />
+        <FAQV2 />
 
         {/* Bottom Call to Action Scroll-Up */}
-        <BottomCTA />
+        <BottomCTAV2 />
       </main>
 
-      {/* Footer */}
       {/* Footer */}
       <footer className="border-t border-white/5 py-16 bg-[#070C19]/80 backdrop-blur-md relative z-10 text-slate-400">
         <div className="max-w-6xl mx-auto px-6">
@@ -133,7 +136,7 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Mobile Sticky CTA Footer (NEW Fasa 6 Element) */}
+      {/* Mobile Sticky CTA Footer */}
       <StickyCTA />
     </div>
   );

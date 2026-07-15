@@ -27,9 +27,23 @@ export default function PackageContactModal({ isOpen, onClose, initialPackage }:
   // Reset selected package when modal opens
   useEffect(() => {
     if (isOpen) {
+      let normalized = initialPackage || "Pakej Launch (RM 999)";
+      if (normalized.includes("Launch")) {
+        normalized = "Pakej Launch (RM 999)";
+      } else if (normalized.includes("Authority")) {
+        normalized = "Pakej Authority (RM 1,899)";
+      } else if (normalized.includes("Corporate")) {
+        normalized = "Pakej Corporate (Bermula RM 2,500)";
+      } else if (normalized.includes("Sniper")) {
+        normalized = "The Sniper Stack";
+      } else if (normalized.includes("Growth")) {
+        normalized = "The Growth Stack";
+      } else if (normalized.includes("Enterprise")) {
+        normalized = "The Enterprise Stack";
+      }
       setFormData(prev => ({
         ...prev,
-        selectedPackage: initialPackage || "Pakej Launch (RM999)",
+        selectedPackage: normalized,
       }));
     }
   }, [isOpen, initialPackage]);
@@ -218,10 +232,12 @@ export default function PackageContactModal({ isOpen, onClose, initialPackage }:
                     onChange={(e) => updateField("selectedPackage", e.target.value)}
                     className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-slate-800 text-[13px] font-bold focus:outline-none focus:bg-white focus:border-amber-400 focus:ring-1 focus:ring-amber-400/20 shadow-xs transition-colors cursor-pointer appearance-none"
                   >
-                    <option value="Pakej Launch (RM999)">Pakej Launch (RM999)</option>
-                    <option value="Pakej Authority (RM1,899)">Pakej Authority (RM1,899) [RECOMMENDED]</option>
-                    <option value="Launch Stack (RM1,999)">Launch Stack (RM1,999)</option>
-                    <option value="Growth Stack (RM2,899)">Growth Stack (RM2,899)</option>
+                    <option value="Pakej Launch (RM 999)">Pakej Launch (RM 999)</option>
+                    <option value="Pakej Authority (RM 1,899)">Pakej Authority (RM 1,899) [RECOMMENDED]</option>
+                    <option value="Pakej Corporate (Bermula RM 2,500)">Pakej Corporate (Bermula RM 2,500)</option>
+                    <option value="The Sniper Stack">The Sniper Stack (RM 1,999)</option>
+                    <option value="The Growth Stack">The Growth Stack (RM 2,899)</option>
+                    <option value="The Enterprise Stack">The Enterprise Stack (RM 3,899)</option>
                     <option value="Custom Service / Add-On">Custom Service / Add-On</option>
                   </select>
                   {/* Custom arrow down */}

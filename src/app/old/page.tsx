@@ -1,22 +1,21 @@
 import React from "react";
-import HeroV2 from "@/components/HeroV2";
-import RealitiPahitV2 from "@/components/RealitiPahitV2";
-import Formula3J from "@/components/Formula3J";
+import Hero from "@/components/Hero";
+import RealitiPahit from "@/components/RealitiPahit";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
 import PerformanceShowcase from "@/components/PerformanceShowcase";
 import WidgetShowcase from "@/components/WidgetShowcase";
-import BackstoryV2 from "@/components/BackstoryV2";
-import HowItWorksV2 from "@/components/HowItWorksV2";
+import Backstory from "@/components/Backstory";
+import HowItWorks from "@/components/HowItWorks";
 import UrgencyStrip from "@/components/UrgencyStrip";
-import PricingV2 from "@/components/PricingV2";
-import GuaranteeV2 from "@/components/GuaranteeV2";
-import FAQV2 from "@/components/FAQV2";
+import Pricing from "@/components/Pricing";
+import Guarantee from "@/components/Guarantee";
+import FAQ from "@/components/FAQ";
 import StickyCTA from "@/components/StickyCTA";
-import BottomCTAV2 from "@/components/BottomCTAV2";
+import BottomCTA from "@/components/BottomCTA";
 import FixedBackground from "@/components/FixedBackground";
 
-export default function HomeV2() {
+export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-[#0B1329] relative text-slate-200 overflow-x-hidden">
       {/* Viewport-Fixed Global Background */}
@@ -24,14 +23,11 @@ export default function HomeV2() {
 
       {/* Main Content */}
       <main className="flex-1 relative z-10">
-        {/* Hero Section V2 (Contains Integrated Navbar & Logo Marquee) */}
-        <HeroV2 />
+        {/* Hero Section (Contains Integrated Navbar & Logo Marquee) */}
+        <Hero />
 
         {/* Realiti Pahit Comparison Section */}
-        <RealitiPahitV2 />
-
-        {/* Formula 3J Section */}
-        <Formula3J />
+        <RealitiPahit />
 
         {/* Portfolio Showcase */}
         <Portfolio />
@@ -48,26 +44,26 @@ export default function HomeV2() {
         */}
         
         {/* Founders Transparent Backstory */}
-        <BackstoryV2 />
+        <Backstory />
 
         {/* 3-Step Timeline Process (NEW Fasa 6 Element) */}
-        <HowItWorksV2 />
+        <HowItWorks />
 
         {/* Urgency Progress Strip - TEMPORARILY HIDDEN
         <UrgencyStrip />
         */}
 
-        {/* Pricing Matrix & Checkout Bumps V2 */}
-        <PricingV2 />
+        {/* Pricing Matrix & Checkout Bumps */}
+        <Pricing />
 
-        {/* Jaminan Refund 48 Jam V2 */}
-        <GuaranteeV2 />
+        {/* Jaminan Refund 48 Jam (NEW Fasa 6 Element) */}
+        <Guarantee />
 
         {/* FAQ Section */}
-        <FAQV2 />
+        <FAQ />
 
         {/* Bottom Call to Action Scroll-Up */}
-        <BottomCTAV2 />
+        <BottomCTA />
       </main>
 
       {/* Footer */}
@@ -136,7 +132,7 @@ export default function HomeV2() {
         </div>
       </footer>
 
-      {/* Mobile Sticky CTA Footer */}
+      {/* Mobile Sticky CTA Footer (NEW Fasa 6 Element) */}
       <StickyCTA />
     </div>
   );

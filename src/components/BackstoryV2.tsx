@@ -39,16 +39,16 @@ export default function BackstoryV2() {
               Ini Yang Kami Buat Untuk Mengatasinya.
             </span>
           </h2>
-          <p className="text-slate-300 text-sm md:text-base leading-relaxed font-medium">
-            Ini kisah bagaimana kami sedar bahawa hampir semua website perniagaan Malaysia adalah 'showroom sunyi' — cantik dipandang, tapi senyap tanpa sales. Dan bagaimana kami reka semula formula itu dari asas.
+          <p className="text-slate-400 text-sm leading-relaxed max-w-xl mx-auto">
+            Website cantik tapi senyap tanpa sales — itu realiti yang kami sendiri alami. Ini cerita bagaimana kami reka semula formula dari asas.
           </p>
         </div>
 
         {/* Balanced Grid Content */}
         <div className="grid lg:grid-cols-12 gap-8 items-start">
 
-          {/* LEFT COLUMN — Founder Photo & Justification Box */}
-          <div className="lg:col-span-5 flex flex-col items-center lg:items-stretch space-y-6 lg:sticky lg:top-24">
+          {/* LEFT COLUMN — Founder Photo */}
+          <div className="lg:col-span-5 flex flex-col items-center lg:items-stretch lg:sticky lg:top-24">
             
             {/* Photo Card */}
             <div className="relative w-full max-w-[380px] mx-auto lg:mx-0">
@@ -72,34 +72,9 @@ export default function BackstoryV2() {
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary rounded-full border-4 border-[#0B1329] shadow-md" />
             </div>
 
-            {/* Trust Badge */}
-            <div className="text-center lg:text-left space-y-2 w-full max-w-[380px] mx-auto lg:mx-0 bg-white/5 border border-white/10 p-5 rounded-2xl">
-              <span className="text-xs font-mono font-bold tracking-widest uppercase bg-primary/10 text-primary px-3 py-1.5 rounded-full border border-primary/20 inline-block">
-                🤝 DIBINA DARI PENGALAMAN SEBENAR
-              </span>
-              <p className="text-slate-350 text-xs leading-relaxed font-medium">
-                Sistem AROS lahir daripada keperluan sebenar — bukan teori buku teks. Setiap ciri yang kami bina, kami dah uji sendiri untuk bisnes kami sebelum tawaran kepada anda.
-              </p>
-            </div>
-
-            {/* Conclusion Box & Price Justification */}
-            <div className="p-6 rounded-2xl bg-amber-500/[0.03] border border-amber-500/15 space-y-4 w-full max-w-[380px] mx-auto lg:mx-0">
-              <p className="font-bold text-white text-xs md:text-sm leading-relaxed">
-                Itu masa kami sedar: kebanyakan peniaga Malaysia ada produk bagus dan bajet iklan yang ada — tapi wang mereka bocor melalui website yang tidak direka untuk menjual. Dan kami ada penyelesaiannya.
-              </p>
-              <div className="border-t border-white/5 pt-4 space-y-2">
-                <h4 className="text-amber-400 font-black text-xs md:text-sm flex items-center gap-2">
-                  <span>🤝</span> Mengapa AROS Berbeza Dari Agensi Web Biasa?
-                </h4>
-                <p className="text-[11px] md:text-xs text-slate-300 leading-relaxed">
-                  Kebanyakan agensi web fokus pada rekaan yang cantik. Kami fokus pada satu soalan: adakah website ini berjaya menukar pelawat menjadi pembeli? Kami bina dengan teknologi Next.js (sub-0.5s), struktur CRO, dan copywriting jualan termasuk — bukan template yang copy-paste.
-                </p>
-              </div>
-            </div>
-
           </div>
 
-          {/* RIGHT COLUMN — Timeline & Diff Cards */}
+          {/* RIGHT COLUMN — Timeline */}
           <div className="lg:col-span-7 space-y-8">
 
             {/* Narrative Timeline (Vertical Stack for better balance and flow) */}
@@ -108,65 +83,37 @@ export default function BackstoryV2() {
               {/* Card 1: Realiti Pasaran */}
               <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-3 hover:border-primary/20 transition-colors shadow-sm">
                 <span className="text-[10px] font-mono font-black text-red-400 bg-red-950/40 border border-red-900/30 px-2.5 py-0.5 rounded-full w-fit block">
-                  FASA 1: REALITI PASARAN
+                  FASA 1: SHOWROOM SUNYI KAMI
                 </span>
-                <h3 className="text-sm font-bold text-white">Website Cantik, Tapi Tiada Sales</h3>
+                <h3 className="text-sm font-bold text-white">Sama Macam Anda, Kami Pernah Gagal</h3>
                 <p className="text-slate-300 text-xs leading-relaxed">
-                  Ramai peniaga Malaysia labur ribuan ringgit bina website cantik. Tapi pengunjung masuk, scroll sekejap, lepas tu senyap. Kenapa? Sebab website itu direka untuk dipandang, bukan untuk menjual.
+                  Kami labur ribuan bina website cantik. Jalankan ads — pengunjung masuk, tengok sekejap, pastu lari. Wang iklan hangus begitu sahaja.
                 </p>
               </div>
 
               {/* Card 2: Penemuan Kebocoran */}
               <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-3 hover:border-primary/20 transition-colors shadow-sm">
                 <span className="text-[10px] font-mono font-black text-amber-400 bg-amber-950/40 border border-amber-900/30 px-2.5 py-0.5 rounded-full w-fit block">
-                  FASA 2: PENEMUAN KEBOCORAN
+                  FASA 2: KAMI JUMPA PUNCA KEBOCORAN
                 </span>
-                <h3 className="text-sm font-bold text-white">Masalahnya Bukan Rekaan. Ia Struktur.</h3>
+                <h3 className="text-sm font-bold text-white">Rupanya Masalah Bukan Ads. Ia Struktur Website.</h3>
                 <p className="text-slate-300 text-xs leading-relaxed">
-                  Data dedah realiti — website yang lembap dan tiada struktur CRO kehilangan lebih separuh pengunjung sebelum mereka sempat nampak tawaran anda. Bukan salah iklan. Bukan salah produk.
+                  Loading melebihi 4 saat, tiada struktur CRO langsung. Iklan betul, produk bagus — tapi website sendiri yang membakar bajet.
                 </p>
               </div>
 
               {/* Card 3: Formula AROS */}
               <div className="p-5 rounded-2xl bg-white/5 border border-white/10 space-y-3 hover:border-primary/20 transition-colors shadow-sm">
                 <span className="text-[10px] font-mono font-black text-emerald-400 bg-emerald-950/40 border border-emerald-900/30 px-2.5 py-0.5 rounded-full w-fit block">
-                  FASA 3: FORMULA AROS
+                  FASA 3: LAHIRNYA FORMULA AROS
                 </span>
-                <h3 className="text-sm font-bold text-white">Loading 0.3s, Conversion +30%</h3>
+                <h3 className="text-sm font-bold text-white">Bina Untuk Diri Sendiri, Kini Untuk Anda</h3>
                 <p className="text-slate-300 text-xs leading-relaxed">
-                  Kami bina semula dari awal dengan teknologi yang lebih pantas. Loading jatuh kepada 0.3 saat — 16x lebih laju dari sebelumnya.
+                  Kami bina semula dari awal — Next.js 0.3 saat, CRO agresif. Jualan melonjak. Formula ini kini jadi <strong className="text-white">AROS</strong> untuk bisnes anda.
                 </p>
               </div>
 
             </div>
-
-            {/* 3 Differentiator Cards Grid */}
-            <motion.div
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-80px" }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-4"
-            >
-              {[
-                { icon: "🎯", title: "Kami Faham Bisnes, Bukan Hanya Kod", body: "Setiap website yang kami bina bermula dari satu soalan: 'Apa yang anda nak orang buat selepas masuk website ni?' Jawapan itu tentukan segalanya." },
-                { icon: "⚡", title: "Kami Ukur Hasil, Bukan Jam Kerja", body: "KPI kami bukan 'website siap.' KPI kami adalah: adakah website ini convert lebih baik dari sebelumnya? Itu yang kami kejar." },
-                { icon: "🔒", title: "Anda Tak Terikat. Selamanya.", body: "Semua kod adalah milik anda 100%. Anda boleh pergi bila-bila masa, bawa kod ke mana-mana developer." }
-              ].map((item, idx) => (
-                <motion.div
-                  key={idx}
-                  variants={cardVariants}
-                  whileHover={{ y: -4, transition: { duration: 0.2 } }}
-                  className="bg-white/5 border border-white/10 rounded-2xl p-5 flex flex-col items-start shadow-sm hover:border-primary/20 transition-all duration-300"
-                >
-                  <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xl mb-3">
-                    {item.icon}
-                  </div>
-                  <h3 className="text-white font-black text-xs md:text-sm mb-1.5">{item.title}</h3>
-                  <p className="text-slate-350 text-xs leading-relaxed">{item.body}</p>
-                </motion.div>
-              ))}
-            </motion.div>
 
           </div>
         </div>

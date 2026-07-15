@@ -184,9 +184,9 @@ export default function PricingV2() {
         {
           name: "Jaminan Tempoh Penghantaran SLA",
           desc: "Draf pertama siap dalam masa bekerja. Lewat? Refund 100% tanpa drama",
-          launch: "72 Jam (3 Hari)",
-          authority: "5 Hari Bekerja",
-          corporate: "7 Hari Bekerja",
+          launch: "5 Hari Bekerja",
+          authority: "7 Hari Bekerja",
+          corporate: "Bermula 14 Hari Bekerja",
         },
         {
           name: "Sokongan Teknikal Priority",
@@ -282,8 +282,8 @@ export default function PricingV2() {
           </div>
         </div>
 
-        {/* Pricing Comparison Table */}
-        <div className="max-w-5xl mx-auto overflow-hidden rounded-[32px] border border-white/10 bg-[#121A2E]/80 backdrop-blur-md shadow-2xl shadow-black/40 relative">
+        {/* Pricing Comparison Table (Desktop Only) */}
+        <div className="hidden lg:block max-w-5xl mx-auto overflow-hidden rounded-[32px] border border-white/10 bg-[#121A2E]/80 backdrop-blur-md shadow-2xl shadow-black/40 relative">
           <div className="overflow-x-auto scrollbar-thin">
             <table className="w-full text-left border-collapse min-w-[700px] sm:min-w-[850px] table-fixed">
               {/* Table Head */}
@@ -404,7 +404,7 @@ export default function PricingV2() {
                 ))}
 
                 {/* Bottom CTA Action Row */}
-                <tr className="hidden sm:table-row border-t border-white/10 bg-[#0B1329]/70">
+                <tr className="border-t border-white/10 bg-[#0B1329]/70">
                   <td className="p-2 sm:p-4 sticky left-0 bg-[#0B1329] border-r border-white/5 z-10">
                     <div className="text-[9px] sm:text-xs font-mono font-black text-slate-450 tracking-wider">MULAKAN PROJEK ANDA</div>
                   </td>
@@ -419,7 +419,7 @@ export default function PricingV2() {
                   <td className="p-2 sm:p-4 text-center bg-amber-500/10 border-l border-amber-400/20">
                     <button
                       onClick={() => handleOpenModal("Pakej Authority (RM1,899)")}
-                      className="w-full py-2.5 bg-gradient-to-r from-amber-400 via-yellow-250 to-amber-500 text-slate-950 font-black text-[9px] sm:text-xs rounded-xl border border-amber-350/20 transition-all cursor-pointer shadow-md shadow-amber-400/15 active:scale-[0.98] select-none"
+                      className="w-full py-2.5 bg-gradient-to-r from-amber-400 via-yellow-250 to-amber-500 text-slate-950 font-black text-[9px] sm:text-xs rounded-xl border border-amber-300/20 transition-all cursor-pointer shadow-md shadow-amber-400/15 active:scale-[0.98] select-none"
                     >
                       Hubungi Kami Sekarang →
                     </button>
@@ -436,16 +436,118 @@ export default function PricingV2() {
               </tbody>
             </table>
           </div>
+        </div>
 
-          {/* Single Mobile CTA Button (Visible on Mobile only) */}
-          <div className="p-4 sm:hidden flex justify-center bg-[#090f1f]/95 border-t border-white/10 rounded-b-[32px]">
-            <button
-              onClick={() => handleOpenModal("Pakej Authority (RM1,899)")}
-              className="w-full max-w-[280px] py-3 bg-gradient-to-r from-amber-400 via-yellow-250 to-amber-500 text-slate-950 font-black text-xs rounded-xl shadow-lg shadow-amber-400/15 active:scale-95 transition-transform flex items-center justify-center gap-1.5 cursor-pointer border-0"
+        {/* Mobile Pricing Cards (Visible only on Mobile/Tablet < lg) */}
+        <div className="lg:hidden space-y-6 max-w-md mx-auto relative z-10">
+          {[
+            {
+              name: "Pakej Launch",
+              price: "RM 999",
+              type: "Sekali Bayar",
+              popular: false,
+              delivery: "Draf Pertama: 5 Hari Bekerja",
+              features: [
+                "1 Halaman (Landing Page)",
+                "Struktur CRO 7-Lapisan",
+                "Penulisan Copywriting Jualan",
+                "Kelajuan Sub-0.5s (Lighthouse 95%+)",
+                "Meta Pixel + TikTok Pixel + GA4 Asas",
+                "CRM Google Sheets Sync (Leads sahaja)",
+                "Percuma Domain (.com / .my) Tahun 1"
+              ]
+            },
+            {
+              name: "Pakej Authority",
+              price: "RM 1,899",
+              type: "Sekali Bayar",
+              popular: true,
+              delivery: "Draf Pertama: 7 Hari Bekerja",
+              features: [
+                "1 Halaman Utama + Funnel Pages (Checkout & Upsell)",
+                "Borang Checkout & Payment Gateway",
+                "Fungsi Order Bump (Satu Klik Add-on)",
+                "Halaman Upsell Automatik (OTO Page)",
+                "Tracking Tepat iOS Block (Conversion API)",
+                "Rakaman Visual Pelawat (Microsoft Clarity Heatmap)",
+                "CRM Google Sheets Sync (Leads & Orders)",
+                "Notifikasi WhatsApp/Email Automatik",
+                "Sokongan Priority 12 Bulan",
+                "30-Day Performance Review"
+              ]
+            },
+            {
+              name: "Pakej Corporate",
+              price: "RM 2,500*",
+              type: "Bermula Dari",
+              popular: false,
+              delivery: "Draf Pertama: Bermula 14 Hari Bekerja",
+              features: [
+                "Laman Web Penuh (Maks 7 Halaman)",
+                "Struktur CRO & Copywriting Penuh",
+                "Kelajuan Sub-0.5s Next.js Engine",
+                "Meta Pixel + TikTok Pixel + GA4 Asas",
+                "Rakaman Visual Pelawat (Heatmap)",
+                "CRM Google Sheets & Integrasi CRM",
+                "Sokongan Priority 12 Bulan",
+                "SLA Garis Masa Bermula 14 Hari Bekerja"
+              ]
+            }
+          ].map((pkg, idx) => (
+            <div
+              key={idx}
+              className={`rounded-3xl border p-6 relative overflow-hidden flex flex-col justify-between ${
+                pkg.popular
+                  ? "bg-[#121A2E]/90 border-amber-400/40 shadow-xl shadow-amber-400/5 ring-1 ring-amber-400/20"
+                  : "bg-[#121A2E]/70 border-white/10 shadow-lg"
+              }`}
             >
-              Hubungi Kami Sekarang →
-            </button>
-          </div>
+              {pkg.popular && (
+                <div className="absolute top-0 right-0">
+                  <span className="inline-flex items-center gap-1 bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 text-[9px] font-mono font-black px-3.5 py-1 rounded-bl-xl uppercase tracking-wider shadow-sm">
+                    POPULAR ⚡
+                  </span>
+                </div>
+              )}
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-lg font-black text-white">{pkg.name}</h3>
+                  <div className="flex items-baseline gap-1.5 mt-2">
+                    <span className="text-2xl font-mono font-black text-amber-400">{pkg.price}</span>
+                    <span className="text-[10px] text-slate-400 font-mono font-bold uppercase tracking-wider">/ {pkg.type}</span>
+                  </div>
+                  <p className="text-[10px] font-mono font-bold text-slate-400 mt-1.5 flex items-center gap-1.5">
+                    ⏱️ <span className={pkg.popular ? "text-yellow-300" : ""}>{pkg.delivery}</span>
+                  </p>
+                </div>
+
+                <div className="h-px bg-white/10 w-full" />
+
+                <ul className="space-y-2.5">
+                  {pkg.features.map((feat, fIdx) => (
+                    <li key={fIdx} className="flex items-start gap-2.5 text-xs text-slate-300">
+                      <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
+                      <span className="leading-tight font-medium text-left">{feat}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="pt-6 mt-6 border-t border-white/5">
+                <button
+                  onClick={() => handleOpenModal(`${pkg.name} (${pkg.price})`)}
+                  className={`w-full py-3 text-xs font-mono font-bold tracking-widest uppercase rounded-xl transition-all cursor-pointer shadow-sm active:scale-[0.98] select-none border-0 ${
+                    pkg.popular
+                      ? "bg-gradient-to-r from-amber-400 via-yellow-250 to-amber-500 text-slate-950 shadow-md shadow-amber-400/15"
+                      : "bg-white/5 hover:bg-white/10 text-white border border-white/10"
+                  }`}
+                >
+                  Hubungi Kami Sekarang →
+                </button>
+              </div>
+            </div>
+          ))}
         </div>
 
         <p className="text-center text-[10px] sm:text-[11px] text-slate-500 mt-4 max-w-4xl mx-auto font-medium">
@@ -573,7 +675,7 @@ export default function PricingV2() {
                 <div>
                   <h4 className="text-white font-black text-base">Google Ads Setup & Manage</h4>
                   <p className="text-slate-400 text-xs mt-2 leading-relaxed">
-                    Website laju tiada makna jika tiada pelawat berkualiti. Kami bina kempen Search/Performance Max berstruktur tinggi, urus, dan optimumkan setiap minggu untuk memastikan Kos Per Lead anda rendah. (Tidak termasuk bajet iklan harian).
+                    Website laju tiada makna jika tiada pelawat berkualiti. Kami bina kempen Search/Performance Max berstruktur tinggi, urus, and optimumkan setiap minggu untuk memastikan Kos Per Lead anda rendah. (Tidak termasuk bajet iklan harian).
                   </p>
                 </div>
               </div>

@@ -22,6 +22,22 @@ interface Template {
 
 const TEMPLATES: Template[] = [
   {
+    id: "aros_salespage",
+    name: "AROS Sales Engine",
+    category: "Sistem Jualan & Landing Page",
+    description: "Landing page utama AROS Sales Engine yang dibina menggunakan Next.js. Reka bentuk moden bercirikan CRO dengan kelajuan loading di bawah 0.5 saat.",
+    image: "/images/screencapture-localhost-3001-2026-07-15-20_31_39.webp",
+    speed: "0.3",
+    speedLabel: "Buttery-smooth Next.js (Sub-0.5s)",
+    features: [
+      "Skema warna gelap futuristik dengan ambient glow",
+      "Struktur susun atur CRO tinggi bagi penukaran leads maksimum",
+      "Animasi scroll tersusun dengan Framer Motion",
+      "Bahagian borang tempahan bersepadu yang kemas"
+    ],
+    headline: "AROS Sales Engine — Sistem Landing Page Berprestasi Tinggi",
+  },
+  {
     id: "petworld",
     name: "Pet World Makanan Kucing",
     category: "Produk Makanan Haiwan",

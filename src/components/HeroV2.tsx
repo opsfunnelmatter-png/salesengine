@@ -10,7 +10,6 @@ import LogoMarquee from "./LogoMarquee";
 export default function HeroV2() {
   const [isMounted, setIsMounted] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
 
   const [isFormExpanded, setIsFormExpanded] = useState(false);
   const [isDesktop, setIsDesktop] = useState(false);
@@ -64,7 +63,6 @@ export default function HeroV2() {
 
     const handleScroll = () => {
       const currentScroll = window.scrollY;
-      setScrollY(currentScroll);
       
       // Sticky when scrolled past the navbar area (approx 96px)
       if (currentScroll > 90) {
@@ -394,7 +392,7 @@ export default function HeroV2() {
               variants={itemVariants}
               className="text-blue-100 text-xs sm:text-sm md:text-base leading-relaxed font-medium"
             >
-              Laman web yang cantik tiada makna jika ia tidak pandai menjual. Kami bina sistem AROS berkelajuan kilat (sub-0.5s) yang direka khusus dengan struktur CRO untuk menyaring pelawat dan menutup jualan secara automatik.
+              Website cantik tak cukup — ia kena menjual. AROS dibina sub-0.5s dengan struktur CRO untuk tukar pelawat jadi pembeli, automatik.
             </motion.p>
 
             {/* GLOWING PRIMARY CTA BUTTON */}
@@ -587,7 +585,7 @@ export default function HeroV2() {
         <div className="flex items-center justify-center gap-3 flex-wrap">
           {[
             "✅ Lighthouse Score Above 95% Dijamin",
-            "⚡ Draf Siap 72 Jam atau Refund Penuh",
+            "⚡ Draf Siap Ikut SLA atau Refund Penuh",
             "🔓 Kod 100% Milik Anda — Tiada Lock-In",
           ].map((label, i) => (
             <motion.span

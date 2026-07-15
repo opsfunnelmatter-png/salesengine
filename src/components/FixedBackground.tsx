@@ -40,7 +40,7 @@ export default function FixedBackground() {
 
       {/* 3. Grid Lines (Fixed in Viewport) */}
       <div 
-        className="absolute inset-0 bg-grid-lines-masked opacity-30 z-0" 
+        className="absolute -top-[50px] -left-[50px] -right-[50px] -bottom-[50px] bg-grid-lines-masked opacity-30 z-0" 
         style={{ 
           maskImage: "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,1) 150px, rgba(0,0,0,1) calc(100% - 80px), transparent 100%)",
           WebkitMaskImage: "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,1) 150px, rgba(0,0,0,1) calc(100% - 80px), transparent 100%)"
@@ -49,10 +49,10 @@ export default function FixedBackground() {
 
       {/* 4. Ambient Glow Orbs (Fixed in Viewport) */}
       {/* Top primary blue orb */}
-      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] filter animate-orb-drift-1" />
+      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(234,179,8,0.05)_0%,transparent_70%)] rounded-full animate-orb-drift-1" />
       
       {/* Middle amber/yellow orb */}
-      <div className="absolute bottom-1/4 right-1/4 w-[450px] h-[450px] bg-amber-400/4 rounded-full blur-[120px] filter animate-orb-drift-2" />
+      <div className="absolute bottom-1/4 right-1/4 w-[450px] h-[450px] bg-[radial-gradient(circle,rgba(251,191,36,0.04)_0%,transparent_70%)] rounded-full animate-orb-drift-2" />
       
       {/* Center glowing gradient */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[radial-gradient(circle_at_center,rgba(234,179,8,0.03)_0%,transparent_60%)] blur-3xl" />

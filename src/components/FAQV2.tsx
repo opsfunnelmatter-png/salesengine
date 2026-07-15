@@ -13,27 +13,27 @@ export default function FAQV2() {
   const faqData: FAQItem[] = [
     {
       question: "Saya bukan orang IT. Adakah saya akan sesat dengan website ni nanti?",
-      answer: "Langsung tidak perlu. Kami design sistem ini khusus untuk peniaga bukan-teknikal. Dashboard yang kami berikan semudah edit dokumen Word — tukar teks, upload gambar, lihat leads masuk. Tidak ada terminal, tidak ada kod, tidak ada sakit kepala. Kalau ada masalah, WhatsApp kami. Kami jelaskan dalam 5 minit.",
+      answer: "Langsung tak perlu IT. Dashboard kami semudah edit Word — tukar teks, upload gambar, tengok leads masuk. Kalau ada masalah, WhatsApp kami. Kami jelaskan dalam 5 minit.",
     },
     {
       question: "Adakah ada kos bulanan yang tersembunyi selepas website siap?",
-      answer: "Sila lupakan bil hosting RM100-300 sebulan. Website kami di-deploy di platform hosting yang sama digunakan oleh lebih 3 juta syarikat global — stabil, laju, dan percuma untuk jenis website yang kami bina. Kos yang perlu anda tanggung hanya pembaharuan domain tahunan (~RM40-60 setahun). Tiada surprise, tiada caj tambahan. Kami beritahu semua kos dari awal sebelum anda bayar satu sen pun.",
+      answer: "Tiada bil hosting bulanan. Kos anda cuma domain tahunan (~RM40-60). Semua kos lain kami beritahu dari awal — tiada surprise.",
     },
     {
       question: "Pixel Facebook, Google Ads, TikTok — semua tu anda setup sekali ke?",
-      answer: "Ya, semuanya. Meta Pixel + Conversion API (server-side), Google Analytics 4, Google Tag Manager, dan TikTok Pixel — semua dipasang dan diuji sebagai standard dalam semua pakej, tanpa bayaran tambahan. Website anda siap receive trafik iklan dengan tracking 100% tepat dari hari pertama launch.",
+      answer: "Ya — Meta Pixel, GA4, Google Tag Manager, dan TikTok Pixel semua included tanpa caj tambahan. Tracking 100% ready dari hari pertama launch.",
     },
     {
       question: "Saya lemah dalam tulis copywriting. Adakah saya perlu sediakan teks sendiri?",
-      answer: "Tidak langsung. Copywriting jualan (CRO copy) disiapkan sepenuhnya oleh kami berdasarkan borang briefing ringkas yang anda isi — tentang produk anda, target pelanggan, dan USP bisnes anda. Kami rangka headline yang hook, body copy yang convince, dan CTA yang mendorong tindakan. Anda hanya perlu approve.",
+      answer: "Tidak langsung. Kami siapkan copywriting jualan sepenuhnya berdasarkan borang briefing ringkas yang anda isi. Anda hanya perlu approve.",
     },
     {
       question: "Garis masa penghantaran (delivery timeline) nampak cepat. Bagaimana proses ini berjalan?",
-      answer: "Garis masa kami adalah realistik mengikut keperluan bisnes anda. Untuk Pakej Launch (Salespage) yang standard, draf pertama sedia dalam masa 72 jam kerana strukturnya sudah sedia optimum. Untuk Pakej Authority (Funnel Penuh), masa yang diambil adalah 5 hari bekerja. Manakala untuk Custom/Corporate Website yang memerlukan integrasi kompleks, tempoh masa adalah antara 7 hingga 14 hari bekerja (atau lebih, bergantung kepada skop). Kami mementingkan kualiti struktur UI/UX dan CRO; kami bergerak pantas kerana sistem kerja kami tersusun, bukan kerana kami tangkap muat.",
+      answer: "Launch Pakej: 5 hari bekerja. Authority Pakej: 7 hari bekerja. Corporate: Bergantung kerumitan (bermula 14 hari bekerja). Lewat? Refund penuh. Kami bergerak pantas sebab sistem kerja kami tersusun.",
     },
     {
       question: "Jika saya tak puas hati atau nak developer lain sambung nanti, macam mana?",
-      answer: "Tiada masalah langsung. Semua kod website anda adalah 100% milik anda dari hari pertama — tiada proprietary lock-in, tiada sistem yang hanya kami sahaja boleh akses. Anda boleh bawa kod ke mana-mana developer, bila-bila masa. Kami confident dengan kerja kami, jadi kami tak perlu tahan anda dengan cara teknikal.",
+      answer: "Tiada masalah. Semua kod 100% milik anda dari hari pertama — tiada lock-in, tiada sistem proprietari. Bawa ke mana-mana developer, bila-bila masa.",
     },
   ];
 

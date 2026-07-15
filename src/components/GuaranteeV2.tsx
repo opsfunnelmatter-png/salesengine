@@ -50,14 +50,14 @@ export default function GuaranteeV2() {
             {/* Content Body */}
             <div className="max-w-2xl space-y-5 text-slate-300 text-xs sm:text-sm leading-relaxed mb-8">
               <p className="font-semibold text-slate-200">
-                Ini bukan sekadar janji pemasaran kosong. Ini adalah komitmen bertulis yang kami pegang dengan penuh integriti sejak hari pertama AROS diasaskan:
+                Ini komitmen bertulis kami — bukan janji pemasaran kosong:
               </p>
               
               <div className="bg-white/[0.02] border border-white/5 rounded-2xl p-5 text-left space-y-4">
                 {[
-                  { title: "1. Refund Dalam 3 Hari Bekerja", desc: "Jika kami lewat menghantar draf pertama anda dari tempoh SLA yang dijanjikan, bayaran anda dikembalikan 100% serta-merta ke akaun asal dalam masa 3 hari bekerja." },
-                  { title: "2. Perlindungan Penuh SLA", desc: "Jaminan bertulis ini meliputi Pakej Launch (72 jam), Pakej Authority (5 hari bekerja), dan Pakej Corporate (7 hari bekerja)." },
-                  { title: "3. Tiada Lock-In Kontrak", desc: "Kod sistem dan infrastruktur 100% milik anda. Bebas bawa dan deploy ke mana-mana server atau developer lain pada bila-bila masa." }
+                  { title: "1. Refund Dalam 3 Hari Bekerja", desc: "Lewat dari SLA yang dijanjikan? Bayaran anda dikembalikan 100% ke akaun asal. Tanpa soal jawab." },
+                  { title: "2. Perlindungan Penuh SLA", desc: "Launch: 5 hari bekerja. Authority: 7 hari bekerja. Corporate: Bermula 14 hari bekerja. Semua covered." },
+                  { title: "3. Tiada Lock-In Kontrak", desc: "Kod 100% milik anda. Bawa ke mana-mana developer, bila-bila masa." }
                 ].map((point, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
